@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp5.0</TargetFramework>
+
+		<IsPackable></IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TechJobsOO\TechJobsOO.csproj" />
+	</ItemGroup>
+
+</Project>

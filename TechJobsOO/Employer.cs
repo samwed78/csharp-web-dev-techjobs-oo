@@ -4,7 +4,7 @@ namespace TechJobsOO
     public class Employer
     {
         public int Id { get; }
-        private static int nextId = 1;
+        private readonly int nextId = 1;
         public string Value { get; set; }
 
         public Employer()
@@ -35,3 +35,16 @@ namespace TechJobsOO
         }
     }
 }
+
+
+//Drying Code comment out lines 4-37 and run this
+
+//    public class Employer : JobField
+//    {
+//        public Employer(string value) : base(value)
+//        { 
+//        }
+
+//    }
+//}
+
